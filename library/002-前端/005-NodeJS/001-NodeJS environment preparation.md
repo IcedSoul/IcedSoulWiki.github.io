@@ -47,3 +47,4 @@ sudo apt update && sudo apt install --no-install-recommends yarn
 1.  https://github.com/nvm-sh/nvm 
 2.  https://github.com/coreybutler/nvm-windows 
 3.  https://yarnpkg.com/en/docs/install#alternatives-stable 
+4.  https://www.ostechnix.com/install-node-js-linux/
