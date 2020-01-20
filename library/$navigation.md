@@ -48,6 +48,8 @@
         - [Java Heap Dump](?file=003-编程语言/001-Java/003-JVM/002-Java Heap Dump "Java Heap Dump")
     - **jar包相关**
         - [反编译jar包](?file=003-编程语言/001-Java/004-jar包相关/001-反编译jar包 "反编译jar包")
+    - **常用第三方类记录**
+        - [CacheBuilder](?file=003-编程语言/001-Java/005-常用第三方类记录/001-CacheBuilder "CacheBuilder")
 - **C++**
     - [C++零碎知识](?file=003-编程语言/002-C++/001-C++零碎知识 "C++零碎知识")
     - [C++ STL map使用](?file=003-编程语言/002-C++/002-C++ STL map使用 "C++ STL map使用")
@@ -98,8 +100,11 @@
 - **中间件**
     - [Flink](?file=007-Web开发/003-中间件/001-Flink "Flink")
     - [Kafka](?file=007-Web开发/003-中间件/002-Kafka "Kafka")
+    - [Flink消费Kafka数据](?file=007-Web开发/003-中间件/003-Flink消费Kafka数据 "Flink消费Kafka数据")
+- **日志**
+    - [Java项目配置日志框架](?file=007-Web开发/004-日志/001-Java项目配置日志框架 "Java项目配置日志框架")
 - **其它**
-    - [开发知识点](?file=007-Web开发/004-其它/001-开发知识点 "开发知识点")
+    - [开发知识点](?file=007-Web开发/005-其它/001-开发知识点 "开发知识点")
 
 ##### 微服务
 - **Kubernetes**

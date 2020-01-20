@@ -14,7 +14,7 @@ You can install Kafka with docker-compose quickly:
 version: "2.1"
 services:
   zookeeper:
-	image: wurstmeister/zookeeper
+    image: wurstmeister/zookeeper
     ports:
       - "2181:2181"
     networks:
@@ -27,8 +27,11 @@ services:
       - "9092:9092"
     environment:
       KAFKA_ADVERTISED_HOST_NAME: sdf-3718715.lvs02.dev.ebayc3.com
-      KAFKA_CREATE_TOPICS: "test:1:1"
+      KAFKA_ADVERTISED_PORT: 9092
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://sdf-3718715.lvs02.dev.ebayc3.com:9092
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_CREATE_TOPICS: "spans:1:1:compact"
+
     networks:
       - data-handle
 
@@ -44,8 +47,8 @@ services:
       APPLICATION_SECRET: letmein
       KM_ARGS: -Djava.net.preferIPv4Stack=true
     networks:
-      - data-handle 
-      
+      - data-handle
+
 networks:
   data-handle:
     driver: bridge
@@ -130,8 +133,6 @@ Then we call `send`in controller:
 producer.send(message);
 ```
 
-
-
 Note that if kafka does not have a listening topic, you will encounter the following error when starting the project:
 
 ```verilog
@@ -141,6 +142,10 @@ Topic(s) [spans] is/are not present and missingTopicsFatal is true
 This problem can be solved by simply creating the missing topic in kafka.
 
 
+
+## Visualization
+
+Download and install `Kafka Tool 2.0`to connect and check state of kafka.
 
 ## Reference
 

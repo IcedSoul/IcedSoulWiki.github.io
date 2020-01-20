@@ -15,6 +15,7 @@
 ```yml
 version: "2.1"
 services:
+
   jobmanager:
     image: ${FLINK_DOCKER_IMAGE_NAME:-flink}
     expose:
@@ -24,6 +25,8 @@ services:
     command: jobmanager
     environment:
       - JOB_MANAGER_RPC_ADDRESS=jobmanager
+    networks:
+      - data-handle
 
   taskmanager:
     image: ${FLINK_DOCKER_IMAGE_NAME:-flink}
@@ -37,6 +40,13 @@ services:
       - "jobmanager:jobmanager"
     environment:
       - JOB_MANAGER_RPC_ADDRESS=jobmanager
+    networks:
+      - data-handle
+
+networks:
+  data-handle:
+    driver: bridge
+
 ```
 
 然后直接执行：
