@@ -24,7 +24,12 @@ If your class have fields of type Timestamp ,you will failed when you want to pa
 private Timestamp time;
 ```
 
+## 注意点
 
+使用jacson把字符串解析对象有以下特点：
+
+1. 对象中的属性数可以少于Json字符串中的属性数。
+2. 对象中的小写字母名称可以直接被转化，如果名字含有大写字母应该加上`@JsonProperty("NAME")`注解，否则该字段无法成功转化。
 
 ## Reference
 
