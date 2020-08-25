@@ -50,6 +50,11 @@
         - [反编译jar包](?file=003-编程语言/001-Java/004-jar包相关/001-反编译jar包 "反编译jar包")
     - **常用第三方类记录**
         - [CacheBuilder](?file=003-编程语言/001-Java/005-常用第三方类记录/001-CacheBuilder "CacheBuilder")
+        - [时间相关](?file=003-编程语言/001-Java/005-常用第三方类记录/002-时间相关 "时间相关")
+    - **多线程**
+        - [多线程基本知识](?file=003-编程语言/001-Java/006-多线程/001-多线程基本知识 "多线程基本知识")
+        - [多线程扩展知识点](?file=003-编程语言/001-Java/006-多线程/002-多线程扩展知识点 "多线程扩展知识点")
+    - [Java面试知识点](?file=003-编程语言/001-Java/007-Java面试知识点 "Java面试知识点")
 - **C++**
     - [C++零碎知识](?file=003-编程语言/002-C++/001-C++零碎知识 "C++零碎知识")
     - [C++ STL map使用](?file=003-编程语言/002-C++/002-C++ STL map使用 "C++ STL map使用")
@@ -78,11 +83,16 @@
 ##### 数据库
 - **关系型数据库**
     - [SQL语法](?file=005-数据库/001-关系型数据库/001-SQL语法 "SQL语法")
+    - [ClickHouse初识](?file=005-数据库/001-关系型数据库/002-ClickHouse初识 "ClickHouse初识")
+    - [mysql安装](?file=005-数据库/001-关系型数据库/003-mysql安装 "mysql安装")
+    - [mysql使用问题](?file=005-数据库/001-关系型数据库/004-mysql使用问题 "mysql使用问题")
 - **NoSQL**
     - **图数据库**
         - **Neo4j**
             - [Neo4j安装](?file=005-数据库/002-NoSQL/001-图数据库/001-Neo4j/001-Neo4j安装 "Neo4j安装")
             - [Neo4j简单使用](?file=005-数据库/002-NoSQL/001-图数据库/001-Neo4j/002-Neo4j简单使用 "Neo4j简单使用")
+            - [Spring boot neo4j](?file=005-数据库/002-NoSQL/001-图数据库/001-Neo4j/003-Spring boot neo4j "Spring boot neo4j")
+            - [Neo4j使用问题](?file=005-数据库/002-NoSQL/001-图数据库/001-Neo4j/004-Neo4j使用问题 "Neo4j使用问题")
 - **ORM框架**
     - **Hibernate**
         - [Hibernate零碎知识点](?file=005-数据库/003-ORM框架/001-Hibernate/001-Hibernate零碎知识点 "Hibernate零碎知识点")
@@ -94,6 +104,9 @@
     - **Spring AOP**
         - [Spring AOP运行](?file=007-Web开发/001-Spring/003-Spring AOP/001-Spring AOP运行 "Spring AOP运行")
         - [Spring AOP踩坑记录](?file=007-Web开发/001-Spring/003-Spring AOP/002-Spring AOP踩坑记录 "Spring AOP踩坑记录")
+    - **微服务SpringBoot代码规范**
+        - [Http接口设计](?file=007-Web开发/001-Spring/004-微服务SpringBoot代码规范/001-Http接口设计 "Http接口设计")
+        - [Spring微服务http接口](?file=007-Web开发/001-Spring/004-微服务SpringBoot代码规范/002-Spring微服务http接口 "Spring微服务http接口")
 - **通信**
     - **Http相关**
         - [Http请求相关知识点](?file=007-Web开发/002-通信/001-Http相关/001-Http请求相关知识点 "Http请求相关知识点")
@@ -101,6 +114,8 @@
     - [Flink](?file=007-Web开发/003-中间件/001-Flink "Flink")
     - [Kafka](?file=007-Web开发/003-中间件/002-Kafka "Kafka")
     - [Flink消费Kafka数据](?file=007-Web开发/003-中间件/003-Flink消费Kafka数据 "Flink消费Kafka数据")
+    - [Rocket MQ](?file=007-Web开发/003-中间件/004-Rocket MQ "Rocket MQ")
+    - [Dubbo](?file=007-Web开发/003-中间件/005-Dubbo "Dubbo")
 - **日志**
     - [Java项目配置日志框架](?file=007-Web开发/004-日志/001-Java项目配置日志框架 "Java项目配置日志框架")
 - **其它**
@@ -111,10 +126,12 @@
     - [Kubernetes权威指南阅读笔记](?file=008-微服务/001-Kubernetes/001-Kubernetes权威指南阅读笔记 "Kubernetes权威指南阅读笔记")
     - [Kubernetes集群搭建](?file=008-微服务/001-Kubernetes/002-Kubernetes集群搭建 "Kubernetes集群搭建")
     - [Kubernetes相关问题记录](?file=008-微服务/001-Kubernetes/003-Kubernetes相关问题记录 "Kubernetes相关问题记录")
-    - **Kubernetes相关知识**
-        - [PV PVC](?file=008-微服务/001-Kubernetes/004-Kubernetes相关知识/001-PV PVC "PV PVC")
-        - [Kubernetes集群增加节点](?file=008-微服务/001-Kubernetes/004-Kubernetes相关知识/002-Kubernetes集群增加节点 "Kubernetes集群增加节点")
-        - [StrogeClass](?file=008-微服务/001-Kubernetes/004-Kubernetes相关知识/003-StrogeClass "StrogeClass")
+    - **Kubernetes概念**
+        - [PV PVC](?file=008-微服务/001-Kubernetes/004-Kubernetes概念/001-PV PVC "PV PVC")
+        - [Kubernetes集群增加节点](?file=008-微服务/001-Kubernetes/004-Kubernetes概念/002-Kubernetes集群增加节点 "Kubernetes集群增加节点")
+        - [StrogeClass](?file=008-微服务/001-Kubernetes/004-Kubernetes概念/003-StrogeClass "StrogeClass")
+    - **Helm相关**
+        - [Helm安装](?file=008-微服务/001-Kubernetes/005-Helm相关/001-Helm安装 "Helm安装")
 - **ServiceComb**
     - [ServiceComb初体验](?file=008-微服务/003-ServiceComb/001-ServiceComb初体验 "ServiceComb初体验")
 - **微服务资料**
@@ -122,6 +139,9 @@
     - [限界上下文视角下的微服务粒度评估](?file=008-微服务/004-微服务资料/002-限界上下文视角下的微服务粒度评估 "限界上下文视角下的微服务粒度评估")
     - [微服务和容器的关系](?file=008-微服务/004-微服务资料/003-微服务和容器的关系 "微服务和容器的关系")
     - [微服务收益相关文献](?file=008-微服务/004-微服务资料/004-微服务收益相关文献 "微服务收益相关文献")
+- **注册中心**
+    - [Nacos](?file=008-微服务/005-注册中心/001-Nacos "Nacos")
+    - [高流量场景下扩容问题](?file=008-微服务/005-注册中心/002-高流量场景下扩容问题 "高流量场景下扩容问题")
 
 ##### 部署&运维
 - **持续集成**
@@ -131,6 +151,7 @@
 - **监控**
     - **微服务系统监控**
         - [Jaeger](?file=009-部署&运维/002-监控/001-微服务系统监控/001-Jaeger "Jaeger")
+        - [SkyWalking](?file=009-部署&运维/002-监控/001-微服务系统监控/002-SkyWalking "SkyWalking")
     - **单体系统监控**
         - [Kieker的学习与使用](?file=009-部署&运维/002-监控/002-单体系统监控/001-Kieker的学习与使用 "Kieker的学习与使用")
         - [使用Kieker监控Spring MVC项目](?file=009-部署&运维/002-监控/002-单体系统监控/002-使用Kieker监控Spring MVC项目 "使用Kieker监控Spring MVC项目")
@@ -138,8 +159,13 @@
     - [The Docker Book](?file=009-部署&运维/003-容器/001-The Docker Book "The Docker Book")
     - [搭建私有Docker镜像服务器](?file=009-部署&运维/003-容器/002-搭建私有Docker镜像服务器 "搭建私有Docker镜像服务器")
     - [配置Docker远程访问](?file=009-部署&运维/003-容器/003-配置Docker远程访问 "配置Docker远程访问")
+    - [Docker安装](?file=009-部署&运维/003-容器/004-Docker安装 "Docker安装")
+    - [阿里云容器镜像服务](?file=009-部署&运维/003-容器/005-阿里云容器镜像服务 "阿里云容器镜像服务")
 - **发布**
     - [Ansible](?file=009-部署&运维/004-发布/001-Ansible "Ansible")
+- **故障排查**
+    - [排查CPU占满故障](?file=009-部署&运维/005-故障排查/001-排查CPU占满故障 "排查CPU占满故障")
+    - [排查OOM故障](?file=009-部署&运维/005-故障排查/002-排查OOM故障 "排查OOM故障")
 
 ##### 常用工具相关
 - **Git相关**
@@ -150,6 +176,8 @@
 - **开发工具**
     - **Intellij IDEA**
         - [Intellij IDEA 配置远程服务器Docker部署环境](?file=010-常用工具相关/003-开发工具/001-Intellij IDEA/001-Intellij IDEA 配置远程服务器Docker部署环境 "Intellij IDEA 配置远程服务器Docker部署环境")
+        - [Intellij IDEA gradle windows 编码错误](?file=010-常用工具相关/003-开发工具/001-Intellij IDEA/002-Intellij IDEA gradle windows 编码错误 "Intellij IDEA gradle windows 编码错误")
+        - [Intellij IDEA 插件开发](?file=010-常用工具相关/003-开发工具/001-Intellij IDEA/003-Intellij IDEA 插件开发 "Intellij IDEA 插件开发")
 - **日常知识**
     - [申请https证书](?file=010-常用工具相关/004-日常知识/001-申请https证书 "申请https证书")
     - [阿里云服务器购买方案](?file=010-常用工具相关/004-日常知识/002-阿里云服务器购买方案 "阿里云服务器购买方案")
@@ -158,6 +186,8 @@
 ##### 项目
 - **WithMe**
     - [WithMe开发笔记](?file=011-项目/001-WithMe/001-WithMe开发笔记 "WithMe开发笔记")
+- **Shopping**
+    - [购物网站微服务演进之路](?file=011-项目/002-Shopping/001-购物网站微服务演进之路 "购物网站微服务演进之路")
 
 ##### 网站收藏
 - [常用网站收藏](?file=012-网站收藏/001-常用网站收藏 "常用网站收藏")
