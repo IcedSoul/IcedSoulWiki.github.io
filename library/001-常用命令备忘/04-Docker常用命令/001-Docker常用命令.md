@@ -13,6 +13,15 @@ docker logs -f -t [container id]
 
 ```
 
+## 镜像相关
+
+```shell
+# 删除所有不使用的镜像
+docker image prune --force --all
+```
+
+
+
 ## 容器与宿主机之间文件复制
 
 ```shell
