@@ -11,6 +11,10 @@ docker logs [container id]
 # 实时查看容器日志
 docker logs -f -t [container id]
 
+# 进入容器内部，根据打镜像使用的容器不同，可以分别尝试下面两条。
+docker exec -it [container id] /bin/bash
+docker exec -it [container id] /bin/sh
+
 ```
 
 ## 镜像相关

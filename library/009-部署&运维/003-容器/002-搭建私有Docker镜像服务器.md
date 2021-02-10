@@ -34,7 +34,7 @@
 
 ### 使用Helm安装Harbor
 
-使用Helm安装Harbor首先需要又一个Kubernetes集群，如果没有需要先行搭建，或者使用上面方式安装。
+使用Helm安装Harbor首先需要有一个Kubernetes集群，如果没有需要先行搭建，或者使用上面方式安装。
 
 有了集群之后还需要安装Helm，可参考：微服务->Kunerneres->Helm相关->Helm安装。
 

@@ -63,6 +63,8 @@
     - [py2neo使用](?file=003-编程语言/003-Python/001-py2neo使用 "py2neo使用")
     - [pandas使用](?file=003-编程语言/003-Python/002-pandas使用 "pandas使用")
     - [python语法](?file=003-编程语言/003-Python/003-python语法 "python语法")
+- **Golang**
+    - [Golang学习资料](?file=003-编程语言/004-Golang/001-Golang学习资料 "Golang学习资料")
 
 ##### 简单算法
 - **图论**
@@ -80,46 +82,54 @@
     - [最长上升子序列](?file=004-简单算法/005-动态规划/001-最长上升子序列 "最长上升子序列")
     - [最长公共子序列](?file=004-简单算法/005-动态规划/002-最长公共子序列 "最长公共子序列")
 
+##### 操作系统
+- **Linux**
+    - [eBPF](?file=005-操作系统/001-Linux/001-eBPF "eBPF")
+    - [bcc](?file=005-操作系统/001-Linux/002-bcc "bcc")
+
+##### 后端开发
+- **Spring**
+    - [Spring 自定义注解](?file=006-后端开发/001-Spring/001-Spring 自定义注解 "Spring 自定义注解")
+    - [在Spring启动时执行方法](?file=006-后端开发/001-Spring/002-在Spring启动时执行方法 "在Spring启动时执行方法")
+    - **Spring AOP**
+        - [Spring AOP运行](?file=006-后端开发/001-Spring/003-Spring AOP/001-Spring AOP运行 "Spring AOP运行")
+        - [Spring AOP踩坑记录](?file=006-后端开发/001-Spring/003-Spring AOP/002-Spring AOP踩坑记录 "Spring AOP踩坑记录")
+    - **微服务SpringBoot代码规范**
+        - [Http接口设计](?file=006-后端开发/001-Spring/004-微服务SpringBoot代码规范/001-Http接口设计 "Http接口设计")
+        - [Spring微服务http接口](?file=006-后端开发/001-Spring/004-微服务SpringBoot代码规范/002-Spring微服务http接口 "Spring微服务http接口")
+- **通信**
+    - **Http相关**
+        - [Http请求相关知识点](?file=006-后端开发/002-通信/001-Http相关/001-Http请求相关知识点 "Http请求相关知识点")
+- **中间件**
+    - [Flink](?file=006-后端开发/003-中间件/001-Flink "Flink")
+    - [Kafka](?file=006-后端开发/003-中间件/002-Kafka "Kafka")
+    - [Flink消费Kafka数据](?file=006-后端开发/003-中间件/003-Flink消费Kafka数据 "Flink消费Kafka数据")
+    - [Rocket MQ](?file=006-后端开发/003-中间件/004-Rocket MQ "Rocket MQ")
+    - [Dubbo](?file=006-后端开发/003-中间件/005-Dubbo "Dubbo")
+- **日志**
+    - [Java项目配置日志框架](?file=006-后端开发/004-日志/001-Java项目配置日志框架 "Java项目配置日志框架")
+- **依赖管理**
+    - **Maven**
+        - [Maven安装使用问题记录](?file=006-后端开发/005-依赖管理/001-Maven/001-Maven安装使用问题记录 "Maven安装使用问题记录")
+- **其它**
+    - [开发知识点](?file=006-后端开发/006-其它/001-开发知识点 "开发知识点")
+
 ##### 数据库
 - **关系型数据库**
-    - [SQL语法](?file=005-数据库/001-关系型数据库/001-SQL语法 "SQL语法")
-    - [ClickHouse初识](?file=005-数据库/001-关系型数据库/002-ClickHouse初识 "ClickHouse初识")
-    - [mysql安装](?file=005-数据库/001-关系型数据库/003-mysql安装 "mysql安装")
-    - [mysql使用问题](?file=005-数据库/001-关系型数据库/004-mysql使用问题 "mysql使用问题")
+    - [SQL语法](?file=007-数据库/001-关系型数据库/001-SQL语法 "SQL语法")
+    - [ClickHouse初识](?file=007-数据库/001-关系型数据库/002-ClickHouse初识 "ClickHouse初识")
+    - [mysql安装](?file=007-数据库/001-关系型数据库/003-mysql安装 "mysql安装")
+    - [mysql使用问题](?file=007-数据库/001-关系型数据库/004-mysql使用问题 "mysql使用问题")
 - **NoSQL**
     - **图数据库**
         - **Neo4j**
-            - [Neo4j安装](?file=005-数据库/002-NoSQL/001-图数据库/001-Neo4j/001-Neo4j安装 "Neo4j安装")
-            - [Neo4j简单使用](?file=005-数据库/002-NoSQL/001-图数据库/001-Neo4j/002-Neo4j简单使用 "Neo4j简单使用")
-            - [Spring boot neo4j](?file=005-数据库/002-NoSQL/001-图数据库/001-Neo4j/003-Spring boot neo4j "Spring boot neo4j")
-            - [Neo4j使用问题](?file=005-数据库/002-NoSQL/001-图数据库/001-Neo4j/004-Neo4j使用问题 "Neo4j使用问题")
+            - [Neo4j安装](?file=007-数据库/002-NoSQL/001-图数据库/001-Neo4j/001-Neo4j安装 "Neo4j安装")
+            - [Neo4j简单使用](?file=007-数据库/002-NoSQL/001-图数据库/001-Neo4j/002-Neo4j简单使用 "Neo4j简单使用")
+            - [Spring boot neo4j](?file=007-数据库/002-NoSQL/001-图数据库/001-Neo4j/003-Spring boot neo4j "Spring boot neo4j")
+            - [Neo4j使用问题](?file=007-数据库/002-NoSQL/001-图数据库/001-Neo4j/004-Neo4j使用问题 "Neo4j使用问题")
 - **ORM框架**
     - **Hibernate**
-        - [Hibernate零碎知识点](?file=005-数据库/003-ORM框架/001-Hibernate/001-Hibernate零碎知识点 "Hibernate零碎知识点")
-
-##### Web开发
-- **Spring**
-    - [Spring 自定义注解](?file=007-Web开发/001-Spring/001-Spring 自定义注解 "Spring 自定义注解")
-    - [在Spring启动时执行方法](?file=007-Web开发/001-Spring/002-在Spring启动时执行方法 "在Spring启动时执行方法")
-    - **Spring AOP**
-        - [Spring AOP运行](?file=007-Web开发/001-Spring/003-Spring AOP/001-Spring AOP运行 "Spring AOP运行")
-        - [Spring AOP踩坑记录](?file=007-Web开发/001-Spring/003-Spring AOP/002-Spring AOP踩坑记录 "Spring AOP踩坑记录")
-    - **微服务SpringBoot代码规范**
-        - [Http接口设计](?file=007-Web开发/001-Spring/004-微服务SpringBoot代码规范/001-Http接口设计 "Http接口设计")
-        - [Spring微服务http接口](?file=007-Web开发/001-Spring/004-微服务SpringBoot代码规范/002-Spring微服务http接口 "Spring微服务http接口")
-- **通信**
-    - **Http相关**
-        - [Http请求相关知识点](?file=007-Web开发/002-通信/001-Http相关/001-Http请求相关知识点 "Http请求相关知识点")
-- **中间件**
-    - [Flink](?file=007-Web开发/003-中间件/001-Flink "Flink")
-    - [Kafka](?file=007-Web开发/003-中间件/002-Kafka "Kafka")
-    - [Flink消费Kafka数据](?file=007-Web开发/003-中间件/003-Flink消费Kafka数据 "Flink消费Kafka数据")
-    - [Rocket MQ](?file=007-Web开发/003-中间件/004-Rocket MQ "Rocket MQ")
-    - [Dubbo](?file=007-Web开发/003-中间件/005-Dubbo "Dubbo")
-- **日志**
-    - [Java项目配置日志框架](?file=007-Web开发/004-日志/001-Java项目配置日志框架 "Java项目配置日志框架")
-- **其它**
-    - [开发知识点](?file=007-Web开发/005-其它/001-开发知识点 "开发知识点")
+        - [Hibernate零碎知识点](?file=007-数据库/003-ORM框架/001-Hibernate/001-Hibernate零碎知识点 "Hibernate零碎知识点")
 
 ##### 微服务
 - **Kubernetes**
@@ -152,6 +162,7 @@
     - **微服务系统监控**
         - [Jaeger](?file=009-部署&运维/002-监控/001-微服务系统监控/001-Jaeger "Jaeger")
         - [SkyWalking](?file=009-部署&运维/002-监控/001-微服务系统监控/002-SkyWalking "SkyWalking")
+        - [Prometheus](?file=009-部署&运维/002-监控/001-微服务系统监控/003-Prometheus "Prometheus")
     - **单体系统监控**
         - [Kieker的学习与使用](?file=009-部署&运维/002-监控/002-单体系统监控/001-Kieker的学习与使用 "Kieker的学习与使用")
         - [使用Kieker监控Spring MVC项目](?file=009-部署&运维/002-监控/002-单体系统监控/002-使用Kieker监控Spring MVC项目 "使用Kieker监控Spring MVC项目")
@@ -195,6 +206,7 @@
 - [项目收藏](?file=012-网站收藏/003-项目收藏 "项目收藏")
 - [优秀博客收藏](?file=012-网站收藏/004-优秀博客收藏 "优秀博客收藏")
 - [优秀建站模板](?file=012-网站收藏/005-优秀建站模板 "优秀建站模板")
+- [优秀书籍](?file=012-网站收藏/006-优秀书籍 "优秀书籍")
 
 ##### 个人爱好
 - **动画**
@@ -225,6 +237,7 @@
     - **PC游戏**
         - **网游**
             - [常玩网游](?file=013-个人爱好/004-游戏/002-PC游戏/001-网游/001-常玩网游 "常玩网游")
+            - [原神](?file=013-个人爱好/004-游戏/002-PC游戏/001-网游/002-原神 "原神")
         - **单机**
             - [常玩单机](?file=013-个人爱好/004-游戏/002-PC游戏/002-单机/001-常玩单机 "常玩单机")
             - [尼尔 机械纪元](?file=013-个人爱好/004-游戏/002-PC游戏/002-单机/002-尼尔 机械纪元 "尼尔 机械纪元")
